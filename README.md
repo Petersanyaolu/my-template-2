@@ -65,7 +65,7 @@ This is the website for a Gym, it is designed to be able to respond, and also be
    ("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/young-woman-using-skipping-rope-to-keep-fit-royalty-free-image-1570134524.jpg")
 
 
-   * Signup page Image used:("https://media.vanityfair.com/photos/54caa999b8f23e3a0314cc66/master/w_1600%2Cc_limit/image.jpg")
+   * Signup page Image used:("https://golf.com/wp-content/uploads/2020/06/corona-gym-safety.jpg")
    Code used was modified from the tutors Examples of "LOVE RUNNING" to best suit my project layout and design.
 
 ### Contents: 

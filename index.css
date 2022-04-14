@@ -1,404 +1,406 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Permanent+Marker&display:300=swap');
-  
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Permanent+Marker&display:300=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
-    font-family: Fredericka the Great;
-    color: #5c4e4e;
-    
+  font-family: "Fredericka the Great", sans-serif;
+  color: #5c4e4e;
 }
 
+/* heading and logo */
+
+h1,
 h2 {
-    font-family: Permanent Marker;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #555555;
-    }
-
-    #logo {
-        float: left;
-        font-size: 280%;
-        margin-left: 30px;
-
-    }
-
-    #menu {
-        font-size: 110%;
-        list-style-type: none;
-        letter-spacing: 4px;
-        
-    }
-
-    #logo, #menu {
-        line-height: 75px;
-    }
-
-    #menu li {
-        float: right;
-        margin-right: 30px; 
-
-    }
-
-    #menu a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    #menu a:hover {
-        border-bottom: 1px solid #5c4e4e;
-    }
-
-    .active {
-        border-bottom: 1px solid #5c4e4e;
-    }
-
-    #hero-image {
-        height: 600px;
-        width: 100%;
-        margin-right: 0%;
-        margin-left: 0%;    
-        background: url("https://kvhstudios.com/wp-content/uploads/2021/07/shutterstock_721502437.jpg") no-repeat center 
-        center;
-
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
-
-
-    #hero-outer {
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-        position: relative; 
-     }
-
-     @keyframes hero-zoom {
-         from{
-             transform: scale(1);
-         }
-         to{
-             transform: scale(1.1);
-         }
-     }
-
-     #cover-text, #cover-text h2 {
-         color: #ffffff;
-     }
-
-     #cover-text {
-         font-size: 130%;
-         font-family: Fredericka the Great;
-         text-transform: uppercase;
-         letter-spacing: 4px;
-         
-
-         width: 300px;
-         height: 180px;
-
-         padding-top: 40px;
-         padding-left: 10px;
-
-         background-color: rgba(101, 85, 170, 0.7);
-
-         bottom: 30px;
-         right: 100px;
-
-         position: absolute;
-     }
-
-     #club-ethos {
-         height: 600px;
-         
-     }
-    
-     #left-about {
-         padding-top: 30px;
-         width: 33%;
-         float: left;
-         
-     }
-
-     #right-about {
-         padding-top: 30px;
-         width: 33%;
-         float: right;
-         
-
-     }
-
-     #center-about {
-         width: 33%;
-         margin: 0 auto;
-         
-
-     }
-
-     hr {
-         border-top: 1px solid #777777;
-         width: 100%;
-         margin: 5px 0;
-     }
-
-     .left-about-heading {
-         width: 50%;
-         float: right;
-         line-height: 20px;
-         clear: both;
-         margin-bottom: 50px;
-         
-     }
-     
-     .right-about-heading {
-         width: 50%;
-         float: left;
-         line-height: 20px;
-         clear: both;
-         margin-bottom: 50px;
-         
-     }
-
-     .right-about-heading h2 {
-         text-align: right;
-
-     }
-
-     right-about-heading p {
-         text-align: right;
-     }
-
-     #welcome {
-         margin: 20px 0;
-         text-align: center;
-         font-size: 280%;
-     }
-
-     #circle-container {
-         width: 300px;
-         height: 300px;
-         padding: 30px;
-         border-style: solid;
-         border-color: aquamarine;
-         border-width: 1px;
-         border-radius: 50%;
-         margin: 0 auto;
-
-     }
-
-     #circle-cover-bg {
-         background: url("https://img.freepik.com/free-photo/fitness-working-out-concept-active-lifestyle-young-people-exercise-workout-fitness-gym_35752-3219.jpg?size=626&ext=jpg") no-repeat center
-         center;
-         height: 100%;
-         border-radius: 50%;
-         
-     }
-
-     #times {
-         background-image: url("https://d2p6e6u75xmxt8.cloudfront.net/2/2018/01/profimedia-0360961098-1-1024x450.jpg");
-         background-repeat: no-repeat;
-         background-size: cover;
-         background-position: center;
-         width: 100%;
-         overflow: hidden;
-     }
-
-     #times div {
-         color: #ffffff;
-         background-color: rgba(0, 0, 0, .6);
-         width: 19%;
-         height: 300px;
-         float: left;
-         padding: 30px 0 0 10px;
-         text-align: center;
-         margin: 1px;
-         
-     }
-
-     #times h2 {
-         color: #fafafa;
-     }
-
-     footer {
-         height: 150px;
-
-     }
-
-     .social-networks {
-         text-align: center;
-     }
-
-     .social-networks li {
-         display: inline;
-     }
-
-     .social-networks i {
-         font-size: 160%;
-         margin: 1%;
-         padding: 5%;
-         color: #5c4e4e;
-     }
-
-     #photo {
-         clear: both;
-         line-height: 0;
-         column-count: 2;
-         column-gap: 0px;
-
-     }
-
-     #photo img {
-         width: 100%;
-    }
-
-    .form-section {
-        clear: left;
-        background: url("https://media.vanityfair.com/photos/54caa999b8f23e3a0314cc66/master/w_1600%2Cc_limit/image.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 700px;
-    }
-
-    .signup-form {
-        margin-top: 100px;
-        color: #fff;
-        background-color: rgba(60, 60, 60, .6);
-        max-width: 400px;
-        position: absolute;
-        left: 30%;
-        padding: 5%;
-    }
-
-        .signup-form h2 {
-            color: #fafafa;
-            margin-bottom: 20px;
-        }
-
-        .text-input {
-            background: transparent;
-            color: #fafafa;
-            width: 100%;
-            height: 25px;
-            margin: 5px 0 20px 0;
-            border: 1px solid #fafafa;
-            border-radius: 2px;
-        }
-
-        .text-input:hover {
-            border-color: #f16c6b;
-        }
-
-        .join-button {
-            margin-top: 20px;
-            border-radius: 2px;
-            padding: 15px 32px 15px 32px;
-            text-align: center;
-            margin-left: 30%;
-            font-size: 100%;
-            background-color: orangered;
-            color: #fafafa;
-            display: block;
-        }
-
-        .join-button:hover {
-            margin-top: 20px;
-            border-radius: 2px;
-            padding: 15px 32px 15px 32px;
-            text-align: center;
-            font-size: 100%;
-            background-color:rgb(250, 9, 61) ;
-            color: #fafafa;
-            display: block;
-
-
-
-        @media screen and (max-width: 1393px){
-        #club-ethos {
-            width: 65%;
-            height: 1200px;
-            margin: 0 auto;
-        }
-
-        #welcome {
-            padding: 30px 0;
-            margin-top: 0;
-        }
-
-        #left-about, #right-about {
-            width: 100%;
-            float: left;
-            padding: 0;
-      
-        }
-
-        #center-about {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0;
-        }
-
-        #times div {
-            width: 100%;
-            clear: both;
-            height: 150%;
-            border-style: solid;
-            border-bottom-width: 1px;
-            border-bottom-color: #fafafa;
-            padding: 0;
-        }
-
-        hr {
-            display: none;
-        }        
-        
-    }
-
-    @media screen and (max-width: 943px) {
-
-        #menu {
-            clear: left;
-            float: left;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px;
-        }
-
-        #cover-text {
-            left: 0px;
-       }
-
-       #club-ethos {
-           width: 90%;
-           height: 1200px;
-           margin: 0 auto;
-
-       }
-
-       .left-about-heading, .right-about-heading {
-           width: inherit;
-       }
-       .left-about-heading h2, .right-about-heading h2 {
-           width: 100%;
-           text-align: center;
-       }
-       .left-about-heading p, .right-about-heading p {
-           text-align: center;
-           padding: 0 20px 0 20px;
-       }
-
-       #photo {
-           column-count: 1;
-       }
-       
-    }
-
-    @media screen and (max-width: 800px) {
-        #photo {
-            column-count: 1;
-        }
-    }
+  font-family: "Permanent Marker", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #555555;
+}
+
+#logo {
+  float: left;
+  font-size: 280%;
+  margin-left: 30px;
+}
+
+/* navigation links */
+
+#menu {
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 4px;
+}
+
+#logo,
+#menu {
+  line-height: 75px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #5c4e4e;
+}
+
+.active {
+  border-bottom: 1px solid #5c4e4e;
+}
+
+/* Hero image and cover text */
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("https://kvhstudios.com/wp-content/uploads/2021/07/shutterstock_721502437.jpg")
+    no-repeat center center;
+
+  /* Animates zoom effect on loading the page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/* level of zoom for image */
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+#cover-text,
+#cover-text h2 {
+  color: #ffffff;
+}
+
+#cover-text {
+  font-size: 130%;
+  font-family: "Fredericka the Great";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  width: 300px;
+  height: 180px;
+
+  padding-top: 40px;
+  padding-left: 10px;
+
+  background-color: rgba(101, 85, 170, 0.7);
+
+  bottom: 30px;
+  right: 100px;
+
+  position: absolute;
+}
+
+/* Club ethos */
+
+#club-ethos {
+  height: 600px;
+}
+
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+}
+
+#right-about {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+}
+
+#center-about {
+  width: 33%;
+  margin: 0 auto;
+}
+
+hr {
+  border-top: 1px solid #777777;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.left-about-heading {
+  width: 50%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.right-about-heading {
+  width: 50%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+right-about-heading p {
+  text-align: right;
+}
+
+.right-about-heading h2 {
+  text-align: right;
+}
+
+/* Club ethos center image */
+
+#welcome {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 280%;
+}
+
+#circle-container {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: aquamarine;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#circle-cover-bg {
+  background: url("https://img.freepik.com/free-photo/fitness-working-out-concept-active-lifestyle-young-people-exercise-workout-fitness-gym_35752-3219.jpg?size=626&ext=jpg")
+    no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Event times */
+
+#times {
+  background-image: url("https://d2p6e6u75xmxt8.cloudfront.net/2/2018/01/profimedia-0360961098-1-1024x450.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+#times div {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 20%;
+  height: 300px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+#times h2 {
+  color: #fafafa;
+}
+
+/* Footer */
+
+footer {
+  height: 150px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #5c4e4e;
+}
+
+/* Gallery Photos */
+
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+  column-gap: 0px;
+}
+
+#photo img {
+  width: 100%;
+}
+
+/* form-section */
+
+.form-section {
+  clear: left;
+  background: url("https://golf.com/wp-content/uploads/2020/06/corona-gym-safety.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.signup-form {
+  margin-top: 100px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 30%;
+  padding: 5%;
+}
+
+.signup-form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #f16c6b;
+}
+
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  margin-left: 30%;
+  font-size: 100%;
+  background-color: orangered;
+  color: #fafafa;
+  display: block;
+}
+
+.join-button:hover {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: rgb(250, 9, 61);
+  color: #fafafa;
+  display: block;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+  #club-ethos {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  #welcome {
+    padding: 30px 0;
+    margin-top: 0;
+  }
+
+  #left-about,
+  #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  #center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  #times div {
+    width: 100%;
+    clear: both;
+    height: 150%;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #fafafa;
+    padding: 0;
+  }
+
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  #cover-text {
+    left: 0px;
+  }
+
+  #club-ethos {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  .left-about-heading,
+  .right-about-heading {
+    width: inherit;
+  }
+  .left-about-heading h2,
+  .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .left-about-heading p,
+  .right-about-heading p {
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
+
+  #photo {
+    column-count: 1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #photo {
+    column-count: 1;
+  }
 }
